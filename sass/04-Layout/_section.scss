@@ -1,0 +1,9 @@
+.section{
+    &--bg{
+        background-color: $subColor;
+    }
+
+    &--text-color{
+        color: $mainColor;
+    }
+}

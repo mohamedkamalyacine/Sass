@@ -1,0 +1,29 @@
+.header {
+    background-color: $mainColor;
+
+    &--text-white {
+        color: $subColor;
+    }
+
+    &__h1 {
+        .display-1 {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-family: "Fira Sans", sans-serif;
+            letter-spacing: normal;
+            font-size: calc(1.675rem + 5.1vw);
+            font-weight: 600;
+            line-height: 1.15;
+        }
+    }
+
+    &__border {
+        border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--bs-light-rgb), var(--bs-border-opacity)) !important;
+        --bs-border-width: 6px;
+        width: 25% !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
